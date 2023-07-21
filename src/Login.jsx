@@ -15,7 +15,7 @@ const Login = () => {
           <label for="password">Password</label>
           <input type="password" id="password" placeholder="Enter your password" required></input>
         </div>
-        <button type="submit">Login</button>
+        <button type="submit" onClick={()=>Navigate("/Home")}>Login</button>
       </form>
     </div>
   </div></div>
